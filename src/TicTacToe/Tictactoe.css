@@ -1,0 +1,96 @@
+.title span{
+    color:#26ffcb;
+}
+.reset{
+    width: 250px;
+    height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #1f3540;
+    font-size: 26px;
+    color: #26ffcb;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.boxes{
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background: #1f3540;
+    border: 4px solid #0f1b21;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.board{
+    height: 600px;
+    width: 564px;
+    display: flex;
+    margin: auto;
+}
+
+.boxes img{
+    margin: 50px 50px;
+}
+
+.title img{
+    padding: 1px 20px;
+    height: 50px;
+}
+
+
+
+/* ====================================== */
+
+
+.congrats-message {
+    text-align: center;
+    background: #1f3540;
+    padding: 20px;
+    border-radius: 12px;
+    color: #26ffcb;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.congrats-message h2 {
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+.congrats-message p {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.congrats-message {
+    text-align: center;
+    background: #1f3540;
+    padding: 20px;
+    border-radius: 12px;
+    color: #26ffcb;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.congrats-message h2 {
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+.congrats-message p {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
